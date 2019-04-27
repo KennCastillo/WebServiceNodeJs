@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+
+    <% include partials/head.html %>
+
+</head>
+
+<body>
+
+    <% include partials/navigation.html %>
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-sm-7">
+                <ul class="list-group">
+                    <a class="nav-link" href="#">
+                        <li class="list-group-item">Administrar corporativo</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li class="list-group-item">Listar corporativos</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li class="list-group-item">Corporativos con adeudo</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li class="list-group-item">Listar Contratos</li>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <li class="list-group-item">Contratos activos</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION ONE -->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-md-5">
+                <img src="/img/LogoAbrhil.png" alt="AbrhilSoft">
+            </div>
+            <div class="col-md-7">
+                <h3> La empresa numero uno en software para RRHH</h3> <br>
+                Tel: (998) 289 3684<br>
+                Lunes a Viernes 09:00 a 21:00 y Sábados 09:00 a 14:00<br>
+                Web: http://www.abrhil.com<br>
+                Quejas y Sugerencias: calidad@abrhil.com
+            </div>
+        </div>
+    </div>
+
+    <% include partials/footer.html %>
+
+</body>
+
+</html>
